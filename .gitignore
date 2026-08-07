@@ -1,0 +1,23 @@
+# Executables & Binaries
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Build Folders
+build/
+bin/
+obj/
+x64/
+
+# Visual Studio & IDE Settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS Files
+.DS_Store
+Thumbs.db
