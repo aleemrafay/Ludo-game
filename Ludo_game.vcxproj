@@ -139,7 +139,27 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Dice.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GfxUtils.cpp" />
+    <ClCompile Include="main (1).cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Token.cpp" />
+    <ClCompile Include="TokenAnimator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Dice.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GfxUtils.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="TokenAnimator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
